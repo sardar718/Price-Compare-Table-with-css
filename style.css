@@ -3,25 +3,23 @@ h1 {
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
 }
+
 img {
   width: 100%;
   /* padding-left: 30px; */
 }
-h2  {
 
-margin-top: 10px;
-margin-bottom: 0px;
-
+h2 {
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
-div{
-    border: 1px solid #cecece;
- padding: 5px;
- border-top: none;
+div {
+  border: 1px solid #cecece;
+  padding: 5px;
+  border-top: none;
 }
 table {
-
-
   width: 100%;
   border-collapse: collapse;
 }
@@ -41,10 +39,12 @@ td {
   padding: 5px;
 }
 
-
 .product {
+  margin: 30px;
+  padding: 10px;
+}
 
-margin: 30px;
-padding: 10px;
 
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
 }
